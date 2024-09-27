@@ -1,56 +1,64 @@
 const people = [
+    // {
+    //   name: 'Leslie Alexander',
+    //   email: 'leslie.alexander@example.com',
+    //   role: 'Co-Founder / CEO',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //   lastSeen: '3h ago',
+    //   lastSeenDateTime: '2023-01-23T13:23Z',
+    // },
+    // {
+    //   name: 'Michael Foster',
+    //   email: 'michael.foster@example.com',
+    //   role: 'Co-Founder / CTO',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //   lastSeen: '3h ago',
+    //   lastSeenDateTime: '2023-01-23T13:23Z',
+    // },
+    // {
+    //   name: 'Dries Vincent',
+    //   email: 'dries.vincent@example.com',
+    //   role: 'Business Relations',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //   lastSeen: null,
+    // },
+    // {
+    //   name: 'Lindsay Walton',
+    //   email: 'lindsay.walton@example.com',
+    //   role: 'Front-end Developer',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //   lastSeen: '3h ago',
+    //   lastSeenDateTime: '2023-01-23T13:23Z',
+    // },
+    // {
+    //   name: 'Courtney Henry',
+    //   email: 'courtney.henry@example.com',
+    //   role: 'Designer',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //   lastSeen: '3h ago',
+    //   lastSeenDateTime: '2023-01-23T13:23Z',
+    // },
+    // {
+    //   name: 'Tom Cook',
+    //   email: 'tom.cook@example.com',
+    //   role: 'Director of Product',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //   lastSeen: null,
+    // },
     {
-      name: 'Leslie Alexander',
-      email: 'leslie.alexander@example.com',
-      role: 'Co-Founder / CEO',
+      name:'Sack Thanpat',
+      email:'Sack.thanapat0157@gmail.com',
+      role: 'Student of ComputerScicnce',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
-    },
-    {
-      name: 'Michael Foster',
-      email: 'michael.foster@example.com',
-      role: 'Co-Founder / CTO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
-    },
-    {
-      name: 'Dries Vincent',
-      email: 'dries.vincent@example.com',
-      role: 'Business Relations',
-      imageUrl:
-        'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/426012818_915851949927186_4228371994844791208_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE4GvwUloA9hQ1HaR7lpLHTshcSTJjwLauyFxJMmPAtq67P4Ux8sADtGR40AExGsTCmBRldFdV8hjgGQwD-fbbF&_nc_ohc=CjmEGmuFqdcQ7kNvgF9QFry&_nc_ht=scontent.fcnx3-1.fna&_nc_gid=AfeTmb6kOk7OTwzM6QMMrvJ&oh=00_AYAuAk3c9qBtdFAXQK5tBqw13RORWqUxzqETHAk6iS0OjQ&oe=66FCD659',
       lastSeen: null,
-    },
-    {
-      name: 'Lindsay Walton',
-      email: 'lindsay.walton@example.com',
-      role: 'Front-end Developer',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
-    },
-    {
-      name: 'Courtney Henry',
-      email: 'courtney.henry@example.com',
-      role: 'Designer',
-      imageUrl:
-        'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
-    },
-    {
-      name: 'Tom Cook',
-      email: 'tom.cook@example.com',
-      role: 'Director of Product',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: null,
-    },
+    }
 ]
 export default function ListComponent() {
   return (

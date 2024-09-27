@@ -19,9 +19,9 @@ export default function FormComponent() {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact sales</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Sack</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Aute magna irure deserunt veniam aliqua magna enim voluptate.
+        Please enter your information.
         </p>
       </div>
       <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
@@ -99,6 +99,7 @@ export default function FormComponent() {
                   <option>US</option>
                   <option>CA</option>
                   <option>EU</option>
+                  <option>TH</option>
                 </select>
                 <ChevronDownIcon
                   aria-hidden="true"

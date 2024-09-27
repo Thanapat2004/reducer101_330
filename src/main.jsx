@@ -5,7 +5,6 @@ import './index.css';
 import FormComponent from './FormComponent';
 import ListComponent from './ListComponent'; 
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <FormComponent></FormComponent>
