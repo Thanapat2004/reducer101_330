@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Field, Label, Switch } from '@headlessui/react'
-import { people } from './people'
 export default function FormComponent() {
   const [agreed, setAgreed] = useState(false)
 
